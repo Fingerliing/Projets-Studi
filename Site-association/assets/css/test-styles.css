@@ -1,0 +1,11 @@
+#carouselExampleIndicators{
+    position: absolute;
+    z-index: -1;
+  }
+
+#frontpage{
+    color: red; 
+    font-size: larger;
+    opacity: 0.5;
+    padding: 50px;
+  }
