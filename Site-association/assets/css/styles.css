@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:wght@300;400;700&display=swap');
 
-.montserrat {
-    font-family: 'Montserrat', sans-serif;
+
+.monserrat {
+    font-family: 'Monserrat', sans-serif;
 }
 
 .cc-navbar {
     background-color: rgba(0,0,0,0.55);
-    font-family: 'Montserrat', serif;
+    font-family: 'Merriweather', serif;
     box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
     z-index: 99;
 }
@@ -18,22 +19,52 @@
 
 .cc-navbar .nav-link:hover {
     padding-bottom: 20px;
-    border-bottom-color: var(--bs-teal);
+    border-bottom-color: var(--bs-orange);
 }
 
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
-  }
+.cards {
+  background-color: #034256;
+}
 
-  #carouselExampleIndicators{
-    position: absolute;
-    z-index: -1;
-  }
+.banner {
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url('../img/Banner.jpg') center center fixed no-repeat;
+    background-size: cover;
+    height: 800px;
+}
 
-  #frontpage{
-    color: red; 
-    font-size: larger;
-    opacity: 0.5;
-    padding: 50px;
+.banner .banner-desc {
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+.cc-menu {
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url('../img/banniere5.jpg') center center fixed no-repeat;
+    background-size: cover;
+    height: 1200px;
+}
+
+.btn-order {
+    color: var(--bs-orange);
+    border-color: var(--bs-orange);
+    transition: 0.5s;
+}
+
+.btn-order:hover,
+.btn-order:active {
+    color: #fff;
+    background-color: var(--bs-orange);
+}
+
+.card-carousel {
+    background-color: #034256;
+}
+
+.bg-image{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('assets/img/banner2.jpg');
+    height: 800px;
   }
